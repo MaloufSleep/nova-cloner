@@ -1,0 +1,21 @@
+{
+  "name": "laravel-nova-cloner",
+  "version": "1.0.0",
+  "description": "Create GitHub releases of the Laravel Nova releases",
+  "main": "index.js",
+  "repository": "https://github.com/MaloufSleep/laravel-nova-cloner-action",
+  "author": "James Funk <james.funk@maloufcompanies.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@octokit/auth-action": "^1.3.3",
+    "@octokit/rest": "^18.12.0",
+    "compare-versions": "^4.1.3",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "github-action-ts-run-api": "^2.1.0"
+  }
+}
