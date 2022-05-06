@@ -1,0 +1,25 @@
+name: 'Nova Cloner'
+description: 'Clone the Laravel Nova distributions to a private git repo'
+inputs:
+  owner:
+    required: true
+  repo:
+    required: true
+  branch:
+    required: true
+  series:
+    required: true
+  actor:
+    required: true
+  path:
+    required: true
+  nova-username:
+    required: true
+  nova-password:
+    required: true
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
